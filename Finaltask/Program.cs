@@ -7,10 +7,6 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string[] array1 = { "Hello", "2", "world", ":-)" };
-string[] array2 = { "1234", "1567", "-2", "computer science" };
-string[] array3 = { "Russia", "Denmark", "Kazan" };
-
 string[] ArrayTask(string[] a)
 {
     int count = 0;
@@ -43,6 +39,9 @@ void PrintTask(string[] array)
     PrintArray(shortArray);
     System.Console.WriteLine();
 }
+string[] array1 = { "Hello", "2", "world", ":-)" };
+string[] array2 = { "1234", "1567", "-2", "computer science" };
+string[] array3 = { "Russia", "Denmark", "Kazan" };
 
 PrintTask(array1);
 PrintTask(array2);
